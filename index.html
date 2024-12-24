@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>తిరుమన్నై</title>
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/sidebar.css">
+    <link rel="stylesheet" href="src/styles/content.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="title">తిరుమన్నై</h1>
+                <div class="date-range">మార్గశిర - December 16 to January 14</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <aside class="sidebar">
+            <h2 class="sidebar-title">పాఠములు</h2>
+            <div class="days-grid" id="daysGrid"></div>
+        </aside>
+
+        <section class="content-area" id="contentArea">
+            <div class="content-header">
+                <h2 id="dayTitle"></h2>
+                <div id="dayDate" class="date"></div>
+                <div id="daySubtitle" class="subtitle"></div>
+            </div>
+            
+            <div class="content-sections">
+                <div class="content-section poem">
+                    <h3>పాఠము</h3>
+                    <div id="poemContent"></div>
+                </div>
+                
+                <div class="content-section meaning">
+                    <h3>తాత్పర్యం</h3>
+                    <div id="meaningContent"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="src/js/app.js"></script>
+</body>
+</html>
